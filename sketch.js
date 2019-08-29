@@ -14,7 +14,9 @@ let current;
 let previous;
 
 function setup() {
-  createCanvas(720, 400);
+  var canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent('sketch-holder');
+  background(255, 0, 200);
   current = createVector(0,0);
   previous = createVector(0,0);
   

@@ -2,6 +2,10 @@ body{
     font-family: 'Archivo Black', sans-serif;
     font-size: 3em;
 }
+.sketch-holder{
+    height: 100%;
+    width: 100%;
+}
 
 .header{
     margin-left: 10%;
@@ -46,6 +50,6 @@ a:hover {
   border-bottom: 0;
   padding-bottom: .3em;
   text-decoration: none;
-  color: yellow;
+  color: grey;
   animation: bloom ease-in-out .75s forwards;
 }
